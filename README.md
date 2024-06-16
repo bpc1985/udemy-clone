@@ -12,6 +12,13 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
+npx prisma init
+npx prisma generate
+npx prisma db push
+node scripts/seed.ts
+
+npx prisma studio
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
